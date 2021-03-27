@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="saga.css">
+    <title>19.11.3006 - Thoriq</title>
+</head>
+<body> 
+    <div class="main">
+        <h1>  Art Photography </h1>
+        <p> ini adalah sebuah seni Photography dan seni dalam menggunakan <br> 
+            lensa kamera, sebuah hobi yang sangat menyenangkan </p>
+        <div class="gallery">
+            <div class="img" >
+                <img src="gambar/gambar1.jpg" alt="">
+            </div>
+            <div class="img">
+                <img src="gambar/img-2.jpg" alt="">
+            </div>
+            <div class="img" >
+                <img src="gambar/img-3.jpg" alt="">
+            </div>
+            <div class="img">
+                <img src="gambar/img-4.jpg" alt="">
+            </div>
+            <div class="img">
+                <img src="gambar/img-5.jpg" alt="">
+            </div>
+            <div class="img">
+                <img src="gambar/img-6.jpg" alt="">
+            </div>
+            <div class="img">
+                <img src="gambar/img-7.jpg" alt="">
+            </div>
+            <div class="img">
+                <img src="gambar/img-8.jpg" alt="">
+            </div>
+            <div class="img">
+                <img src="gambar/gambar5.jpg" alt="">
+            </div>
+            <div class="img">
+                <img src="gambar/gambar4.jpg" alt="">
+            </div>
+            <div class="img">
+                <img src="gambar/gambar7.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
