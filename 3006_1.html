@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thoriq - 19.11.3006</title>
+    <style>
+        #body{
+            font-family: 'Times New Roman';
+            line-height: 20%;
+        }
+
+        #tengah{
+            position: absolute;
+            margin-top: -100;
+            margin-left: -200;
+            left: 2%;
+            top: 1%;
+        }
+
+        #fieldset{
+            width: 450px;
+            height: 300px;
+        }
+
+        #table{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body id="body">
+    <div id="tengah">
+        <fieldset id="fieldset">
+            <table border="0" id="table">
+                <form id="from">
+                    <tbody>
+                        <legend><h1>Biodata Diri</h1></legend>
+                        <div>
+                            <tr>
+                                <td> <label>Nama Depan</label> </td>
+                                <td> <label>:</label> </td>
+                                <td> <input type="text" name="nama-depan" placeholder="Nama Depan" size="30"> </td>
+                            </tr>
+                        </div>
+
+                        <div>
+                            <tr>
+                                <td> <label>Nama Belakang</label> </td>
+                                <td> <label>:</label> </td>
+                                <td> <input type="text" name="nama-belakang" placeholder="Nama Belakang" size="30"> </td>
+                            </tr>
+                        </div>
+
+                        <div>
+                            <tr>
+                                <td>
+                                    <label>Hobi</label>
+                                </td>
+                                <td>
+                                    <label>:</label>
+                                </td>
+                                <td>
+                                    <select name="hobi" id="hobi">
+                                        <option name="Pilihan"> Pilih Hobi</option>
+                                        <option name="Angkat Beban"> Angkat Beban </option>
+                                        <option name="Balap Karung"> Balap Karung </option>
+                                        <option name="Sepak bola Api"> Sepak Bola Api </option>
+                                        <option name="Bulu tangkis"> Bulu tangkis </option>
+                                        <option name="Baku Hantam"> Baku Hantam </option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </div>
+
+                        <div>
+                            <tr>
+                                <td>
+                                    <label> Jenis Kelamin</label>
+                                </td>
+                                <td>
+                                    <label>:</label>
+                                </td>
+                                <td>
+                                    <select name="jenis-kelamin">
+                                        <option name="pilih jenis kelamin"> Pilih Jenis Kelamin </option>
+                                        <option name="Laki Laki"> laki laki </strong>
+                                        <option name="Perempuan"> Perempuan </strong>
+                                        <option name="Ganda"> Ganda </strong>
+                                    </select>
+                                </td>
+                            </tr>
+                        </div>
+
+                        <div>
+                            <tr>
+                                <td> <label>Email</label> </td>
+                                <td> <label>:</label> </td>
+                                <td> <input type="text" name="email" placeholder="Email" size="25"> </td>
+                            </tr>
+                        </div>
+
+                        <div>
+                            <td> <label>Alamat</label> </td>
+                            <td> <label>:</label> </td>
+                            <td> <textarea name="alamat" cols="24" rows="3"></textarea> </td>
+                        </div>
+
+                        <div>
+                            <tr>
+                                <td> <label> Nomor Handphone </label> </td>
+                                <td> <label>:</label> </td>
+                                <td> <input type="text" name="no-handphone" placeholder="Nomor Handphone" size="20"> </td>
+                            </tr>
+                        </div>
+
+                        <div>
+                            <tr>
+                                <td> <input type="submit" name="btn-submit" onclick="alert('Biodata Anda Berhasil Di Input!')" value="submit"></td>
+                            </tr>
+                        </div>
+
+                    </tbody>
+                </form>
+            </table>
+        </fieldset>
+</body>
+</html>
