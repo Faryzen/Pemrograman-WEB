@@ -1,0 +1,70 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main h1{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%) ;
+    margin: 2% 0 0 0;
+    text-align: center;
+    font-size: 2.8em;
+    letter-spacing: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.main p{
+    position: relative;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.0em;
+    letter-spacing: 3px;
+    color: #666;
+}
+
+.main .gallery{
+    position: relative;
+    height: auto;
+    width: 60%;
+    margin:auto;
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 2vh;
+    /* grid-auto-flow:dense; */
+}
+
+.main .gallery .img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main .gallery .img:first-child{
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+}
+
+.main .gallery .img:nth-child(2n+3){
+    grid-row-start: auto;
+}
+
+.main .gallery .img:nth-child(4n+5){
+    grid-column-start: span 2;
+    grid-row-start: span 3;
+
+}
+
+.main .gallery .img:nth-child(8n+9){
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+
+}
+
+.main .gallery .img img{
+    height: 100%;
+    width: 100%;
+    /* object-fit:fill; */
+    filter: brightness(1) grayscale(0);
+    
+}
